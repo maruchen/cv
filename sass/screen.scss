@@ -102,13 +102,29 @@ body {
   font: normal 100%/1.4 sans-serif;
 }
 
+.content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 560px) {
+  .content {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
 section {
   border-bottom: 1px solid #333;
-  text-align: center;
-  padding: 100px 0 0;
-  height: 800px;
-  width: 100%;
+  text-align: left;
+  padding: 2em 0;
+
+  &:first-child {
+    padding: 100px 0 2em 0;
+  }
 }
+
+
 
 h1 {
   margin-bottom: .5em;

@@ -13,28 +13,75 @@
   <script src="js/responsive-nav.js"></script>
 </head>
 <body>
-<div class="container">
-  <header>
-    <a href="#home" class="logo" data-scroll>陈晶的个人主页</a>
-    <nav class="nav-collapse">
-      <ul>
-        <li class="active"><a href="#cv" data-scroll>简历</a></li>
-        <li><a href="#contact" data-scroll>联系我</a></li>
-        <li><a href="#life" data-scroll>兴趣</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="cv">
-    <h1>简历</h1>
-  </section>
+<header>
+  <a href="#home" class="logo" data-scroll>陈晶的个人主页</a>
+  <nav class="nav-collapse">
+    <ul>
+      <li class="active"><a href="#contact" data-scroll>联系我</a></li>
+      <li><a href="#home" data-scroll>简历</a></li>
+      <li><a href="#life" data-scroll>兴趣</a></li>
+    </ul>
+  </nav>
+</header>
 
+<div class="content">
   <section id="contact">
     <h1>联系方式</h1>
+    电话：18559106277<br>
+    邮箱：chenmaru@qq.com<br>
+    男 28岁（1986年9月）<br>
+    期望工作地：深圳<br>
+    期望职业：软件工程师<br>
+  </section>
+
+  <section id="home">
+    <h1>简历</h1>
+
+    2012 – 2014百度在线网络技术（北京）有限公司移动云事业部手机浏览器后台开发工程师<br>
+<br>
+    2009 – 2012中科院计算技术研究所计算机系统结构工学硕士<br>
+    2005 – 2009北京邮电大学光信息科学与技术理学学士<br>
+<br>
+    项目经历                                                                         <br>
+    1. 百度手机浏览器的云端服务<br>
+    功能：广告屏蔽、网页压缩、网址安全<br>
+    加速：差异化传输、spdy/quic协议<br>
+    开发云端广告屏蔽功能，节省了用户流量和手机资源。对163、新浪等pc站点减少加载时间40%，节约流量35%。后期参与移植该功能到手机。<br>
+    为代理服务器开发网页压缩功能，利用服务器上的webkit内核对HTML、JS、CSS进行压缩，节约用户手机流量。每天处理请求1亿次。<br>
+    开发差异化传输功能，对用户浏览的网页做diff，每次只下发patch。平均节约60%流量。<br>
+    开发网址安全提示功能，提示用户正在浏览的网页是否安全。每天处理请求7000万次。<br>
+<br>
+    2. webkit网页爬虫<br>
+    二次开发及封装webkit浏览器内核库，为轻应用、自动建站等服务提供网页解析技术。<br>
+    为爬虫增加广告屏蔽功能。吞吐量从40q/s提升到60q/s，增加50%；处理时间下降30%。<br>
+    给商业分析等部门提供网页抓取服务。以HTTP、mcpack等接口形式提供网页解析、渲染、截图和打包等功能。主要用于网页截图、主体提取、js注入、商业广告抽取分析等。<br>
+     <br>
+    3. 浏览器用户数据分析<br>
+    使用Hadoop集群统计日志，生成产品线指标报表。<br>
+    收集浏览器内核性能数据，用于跟踪浏览器性能改进。<br>
+    建设用户浏览行为数据仓库，描绘用户画像。<br>
+<br>
+    4. 带领团队开发手游媒体网站兜游网 www.idouu.com<br>
+    三个月时间内，带领一名设计、一名php程序员完成该项目。<br>
+    负责需求分析、团队建设、系统设计，并且在实践中熟悉了php，以及CSS、响应式设计等前端技术。<br>
+<br>
+    个人技能                                                                         <br>
+    C、C++，Linux后台开发<br>
+    C熟悉网络编程、TCP/IP协议、HTTP协议等<br>
+    C了解网页渲染过程，熟悉HTML，JavaScript和CSS<br>
+    CHadoop Streaming上用python做数据处理<br>
+    CHadoop英语六级；日语通过JLPT-3<br>
+<br>
+
   </section>
 
   <section id="life">
-    <h1>兴趣</h1>
+    自我描述                                                             <br>
+    本科在北京邮电大学电子工程学院学习光信息科学与技术。这个专业是交叉学科，所以对半导体、电子、光学、通信、计算机都有专业学习经历。喜欢动手实操，把课余时间都投入到电子实验室，获得过全国电子设计大赛和Intel嵌入式比赛二等奖。保研到中科院计算所系统结构方向，同时学习自动化控制技术。期间在广东顺德的工厂实践一年，研发出国内领先的300吨双点伺服压力机。亲身感受到工业制造行业的封闭以及国内和西方的差距。<br>
+    毕业后从事Linux服务器开发，做手机浏览器的云端加速代理、webkit二次开发和用户日志分析。对机器学习和前端技术颇感兴趣，渴望做出有意思的东西。<br>
+<br>
+    爱好游泳、篮球等运动；最近正在练习ukulele。喜欢看好书。<br>
   </section>
 </div>
 
