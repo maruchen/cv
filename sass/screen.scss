@@ -99,7 +99,7 @@ body {
   text-size-adjust: 100%;
   color: #fff;
   background: #222;
-  font: normal 100%/1.4 sans-serif;
+  font: normal 100%/1.4 "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
 }
 
 .content {
@@ -107,7 +107,7 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 960px) {
   .content {
     width: 960px;
     margin: 0 auto;
@@ -126,14 +126,10 @@ section {
 
 
 
-h1 {
-  margin-bottom: .5em;
+h3 {
+  margin-bottom: 1em;
 }
 
-p {
-  width: 90%;
-  margin: 0 auto;
-}
 
 
 /* ------------------------------------------
@@ -332,6 +328,83 @@ header {
 
 
 
-// 自定义
+body a {
+  color: #7cb4c5;
+  text-decoration: none;
+  &:hover {
+    color: #f60;
+  }
+}
+
+#contact {
+  a {
+    font-weight: bold;
+  }
+}
+
+#resume {
+  li {
+    list-style-type: none;  
+  }
+  .date {
+    display: inline-block;
+    width: 7em;
+  }
+  .company, .school{
+    display: inline-block;
+    width: 25em;
+  }
+  .company, .school, .role{
+    margin-left: 1em;
+  }
+}
+
+#project {
+  ol {
+    padding-left: 1.2em;
+  }
+  li {
+    padding: 0 0 1em 1em;
+  }
+  dt {
+    padding-bottom: .8em;
+  }
+  h4 {
+    font-weight: normal;
+  }
+  dd {
+    margin-bottom: .5em;
+    margin-left: 1em;
+  }
+  h4 {
+    margin-bottom: .2em;
+    margin-left: -1em;
+  }
+  p {
+  }
+}
+
+#skill {
+  ul {
+    padding-left: 1.2em;
+  }
+  li {
+    list-style-type: circle;
+    padding: 0 0 .5em 1em;
+  }
+}
+
+#interest {
+  height: 800px;
+  p {
+    text-indent: 2em;
+    padding-bottom: .2em;
+    line-height: 1.5em;
+  }
+  .links {
+    margin-top: 1em;
+  }
+}
+
 
 

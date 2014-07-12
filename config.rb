@@ -7,8 +7,8 @@ sass_dir = "sass"
 images_dir = "img"
 javascripts_dir = "js"
 
-output_style = :neested
-#output_style = :compact
+#output_style = :neested
+output_style = :compressed
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
 
@@ -24,3 +24,6 @@ line_comments = false
 # preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+# set the css file encoding
+Encoding.default_external = "utf-8"
+
